@@ -1,0 +1,122 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.container{
+  background-color: #c89666;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+.app-wrapper{
+  background-color: #12343b;
+  width: 405px;
+  height: 500px;
+  padding: 30px;
+  box-shadow: 3px 6px 40px #000;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.header h1{
+  color: #fff;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 27px;
+}
+.task-input{
+  outline: none;
+  padding: 15px;
+  width: 260px;
+  margin-right: 25px;
+  font-size: 20px;
+  color: #ccc;
+  background-color: #000000;
+  border: 1px solid #c89666;
+  border-radius: 10px;
+}
+.button-add{
+  width: 60px;
+  padding: 15px 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 0;
+  background-color: #F1B277;
+  cursor: pointer;
+}
+.list-item{
+  display: flex;
+  margin: 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  padding-bottom: 10px;
+  height: 45px;
+}
+.button-complete
+.button-delete
+.button-edit{
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 20px;
+  border-radius: 50%;
+}
+.button-complete{
+  color: #ff6c6c;
+  margin-right: 10px;
+}
+.button-delete{
+  color: lightseagreen;
+}
+.button-edit{
+  color: #e2d029;
+  margin-right: 10px;
+  padding: 2px;
+}
+.complete{
+  text-decoration-style: solid;
+  text-decoration-color: #ff6c6c;
+  text-decoration-line: line-through;
+  opacity: 0.6;
+}
+.list{
+  width: 220px;
+  background-color: #12343b;
+  border: none;
+  color: #ccc;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-right: 15px;
+}
+.fa-solid{
+  background-color: #12343B;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  color: white;
+}
+.fa-trash-can{
+  color: blue;
+}
+.fa-circle-check{
+  color: red;
+}
+.fa-pen-to-square{
+  color: #DABF50;
+}
+input:focus,
+button:focus{
+  outline: none;
+}
+
+
+
+
+
